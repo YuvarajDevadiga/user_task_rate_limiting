@@ -1,0 +1,22 @@
+{
+  "name": "user-task-rate-limiting",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bullmq": "^5.26.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.7"
+  }
+}
